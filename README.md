@@ -63,7 +63,7 @@ src/
 
 Installation
 Clone the repository
-git clone https://github.com/your-username/legal-dashboard.git
+git clone  https://github.com/SanelisiweMhlawuli/legal-dashboard.git
 Navigate into the project
 cd legal-dashboard
 Install dependencies
