@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Legal Dashboard
 
-## Getting Started
+A modern responsive legal workflow dashboard built with Next.js, TypeScript and Tailwind CSS.
 
-First, run the development server:
+This project helps legal teams manage active matters, monitor assignments, track deadlines and organize workflows through a clean and responsive user interface.
 
-```bash
+Features
+Dashboard Functionality
+Responsive dashboard layout
+Desktop table view
+Mobile card view
+Real-time matter filtering
+Search by title or assignee
+Filter by status
+Filter by priority
+Matter sorting system
+Debounced search functionality
+Local storage persistence
+Dynamic due date indicators
+Loading skeleton states
+Empty state UI
+Interactive hover animations
+Smooth transitions
+Sticky navigation header
+Clean modern UI design
+
+
+Tech Stack
+Next.js
+React
+TypeScript
+Tailwind CSS
+Lucide React Icons
+
+
+Project Structure
+src/
+│
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── layout/
+│   │   ├── Header.tsx
+│   │   └── Footer.tsx
+│   │
+│   ├── matter/
+│   │   ├── MatterCard.tsx
+│   │   ├── MatterFilters.tsx
+│   │   └── MatterTable.tsx
+│   │
+│   └── ui/
+│       └── LoadingSkeleton.tsx
+│
+├── data/
+│   └── matter.ts
+│
+└── types/
+    └── matter.ts
+
+
+Installation
+Clone the repository
+git clone https://github.com/your-username/legal-dashboard.git
+Navigate into the project
+cd legal-dashboard
+Install dependencies
+npm install
+Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open in browser
+http://localhost:3000
+Matter Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Each matter includes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Matter title
+Current status
+Priority level
+Assigned team member
+Due date tracking
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The dashboard dynamically filters and updates results in real time.
 
-## Learn More
+Debounced Search
 
-To learn more about Next.js, take a look at the following resources:
+The search input uses debouncing to improve performance and reduce unnecessary filtering while users are typing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This creates a smoother and more optimized user experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Local Storage Persistence
 
-## Deploy on Vercel
+Search values, filters, and sorting preferences are automatically saved using local storage.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This allows users to refresh the page without losing their dashboard state.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Sorting System
+
+Users can sort matters by:
+
+Newest
+Oldest
+Priority
+Alphabetical order (A–Z)
+
+Sorting updates instantly without reloading the page.
+
+Responsive Design
+Mobile Experience
+Card-based layout
+Touch-friendly interactions
+Optimized spacing
+Responsive stacking layout
+Desktop Experience
+Interactive data table
+Enhanced hover effects
+Improved readability
+Optimized workflow visibility
+UI & UX Improvements
+
+The interface includes several modern UX enhancements:
+
+Smooth hover transitions
+Animated loading skeletons
+Dynamic urgency colors for deadlines
+Rounded modern UI components
+Consistent spacing system
+Responsive layout behavior
+Future Improvements
+Authentication
+Matter detail pages
+Pagination
+API integration
+Database support
+Notifications system
+Dark mode
+Charts and analytics
+Role-based permissions
+Author
+
+Built by Sanelisiwe Mhlawuli using Next.js, TypeScript and Tailwind CSS.
