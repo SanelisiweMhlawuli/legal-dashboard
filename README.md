@@ -1,4 +1,4 @@
-# Legal Dashboard
+Legal Dashboard
 
 A modern responsive legal workflow dashboard built with Next.js, TypeScript and Tailwind CSS.
 
@@ -6,7 +6,7 @@ This project helps legal teams manage active matters, monitor assignments, track
 
 
 
-## Features
+Features:
 
 - Responsive dashboard layout
 - Desktop table view
@@ -28,7 +28,7 @@ This project helps legal teams manage active matters, monitor assignments, track
 
 
 
-## Tech Stack
+Tech Stack:
 
 - Next.js
 - TypeScript
@@ -37,7 +37,7 @@ This project helps legal teams manage active matters, monitor assignments, track
 
 
 
-## Project Structure
+Project Structure:
 
 
 src/
@@ -69,7 +69,7 @@ src/
 
 
 
-## Installation
+Installation
 
 Clone the repository:
 
@@ -102,7 +102,7 @@ http://localhost:3000
 
 
 
-## Matter Features
+Matter Features:
 
 Each matter includes:
 
@@ -116,7 +116,7 @@ The dashboard dynamically filters and updates results in real time.
 
 
 
-## Debounced Search
+Debounced Search:
 
 The search input uses debouncing to improve performance and reduce unnecessary filtering while users are typing.
 
@@ -124,14 +124,14 @@ This creates a smoother and more optimized user experience.
 
 
 
-## Local Storage Persistence
+Local Storage Persistence:
 
 Search values, filters and sorting preferences are automatically saved using local storage.
 
 This allows users to refresh the page without losing their dashboard state.
 
 
-## Sorting System
+Sorting System:
 
 Users can sort matters by:
 
@@ -143,16 +143,16 @@ Users can sort matters by:
 Sorting updates instantly without reloading the page.
 
 
-## Responsive Design
+Responsive Design:
 
-### Mobile Experience
+Mobile Experience:
 
 - Card-based layout
 - Touch-friendly interactions
 - Optimized spacing
 - Responsive stacking layout
 
-### Desktop Experience
+ Desktop Experience:
 
 - Interactive data table
 - Enhanced hover effects
@@ -160,13 +160,13 @@ Sorting updates instantly without reloading the page.
 - Optimized workflow visibility
 
 
-## Design Decisions
+Design Decisions:
 
 A table layout was used on desktop screens because it allows users to quickly scan large amounts of structured legal matter data efficiently.
 
 A card-based layout was used on mobile devices to improve readability, spacing and touch interaction on smaller screens.
 
-## UI & UX Improvements
+ UI & UX Improvements:
 
 The interface includes several modern UX enhancements:
 
@@ -177,6 +177,6 @@ The interface includes several modern UX enhancements:
 - Responsive layout behavior
 
 
-## Author
+Author:
 
 Built by Sanelisiwe Mhlawuli using Next.js, TypeScript and Tailwind CSS.
