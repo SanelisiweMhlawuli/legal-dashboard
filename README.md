@@ -4,36 +4,35 @@ A modern responsive legal workflow dashboard built with Next.js, TypeScript and 
 
 This project helps legal teams manage active matters, monitor assignments, track deadlines and organize workflows through a clean and responsive user interface.
 
-Features
-Dashboard Functionality
-Responsive dashboard layout
-Desktop table view
-Mobile card view
-Real-time matter filtering
-Search by title or assignee
-Filter by status
-Filter by priority
-Matter sorting system
-Debounced search functionality
-Local storage persistence
-Dynamic due date indicators
-Loading skeleton states
-Empty state UI
-Interactive hover animations
-Smooth transitions
-Sticky navigation header
-Clean modern UI design
+Features: 
+Dashboard Functionality, 
+Responsive dashboard layout, 
+Desktop table view, 
+Mobile card view, 
+Real-time matter filtering, 
+Search by title or assignee, 
+Filter by status, 
+Filter by priority, 
+Matter sorting system, 
+Debounced search functionality, 
+Local storage persistence, 
+Dynamic due date indicators, 
+Loading skeleton states, 
+Empty state UI, 
+Interactive hover animations, 
+Smooth transitions, 
+Sticky navigation header, 
+Clean modern UI design, 
 
 
-Tech Stack
-Next.js
-React
-TypeScript
-Tailwind CSS
+Tech Stack: 
+Next.js, 
+TypeScript, 
+Tailwind CSS, 
 Lucide React Icons
 
 
-Project Structure
+Project Structure: 
 src/
 │
 ├── app/
