@@ -71,14 +71,15 @@ Run the development server
 npm run dev
 Open in browser
 http://localhost:3000
-Matter Features
+
+Matter Features: 
 
 Each matter includes:
 
-Matter title
-Current status
-Priority level
-Assigned team member
+Matter title, 
+Current status, 
+Priority level, 
+Assigned team member, 
 Due date tracking
 
 The dashboard dynamically filters and updates results in real time.
@@ -91,7 +92,7 @@ This creates a smoother and more optimized user experience.
 
 Local Storage Persistence
 
-Search values, filters, and sorting preferences are automatically saved using local storage.
+Search values, filters and sorting preferences are automatically saved using local storage.
 
 This allows users to refresh the page without losing their dashboard state.
 
@@ -99,44 +100,31 @@ Sorting System
 
 Users can sort matters by:
 
-Newest
-Oldest
-Priority
+Newest, 
+Oldest, 
+Priority, 
 Alphabetical order (A–Z)
 
 Sorting updates instantly without reloading the page.
 
-Responsive Design
-Mobile Experience
-Card-based layout
-Touch-friendly interactions
-Optimized spacing
-Responsive stacking layout
-Desktop Experience
-Interactive data table
-Enhanced hover effects
-Improved readability
-Optimized workflow visibility
+Responsive Design: 
+Mobile Experience, 
+Card-based layout, 
+Touch-friendly interactions, 
+Optimized spacing, 
+Responsive stacking layout, 
+Desktop Experience, 
+Interactive data table, 
+Enhanced hover effects, 
+Improved readability, 
+Optimized workflow visibility, 
 UI & UX Improvements
 
 The interface includes several modern UX enhancements:
-
-Smooth hover transitions
-Animated loading skeletons
-Dynamic urgency colors for deadlines
-Rounded modern UI components
-Consistent spacing system
-Responsive layout behavior
-Future Improvements
-Authentication
-Matter detail pages
-Pagination
-API integration
-Database support
-Notifications system
-Dark mode
-Charts and analytics
-Role-based permissions
-Author
+Smooth hover transitions, 
+Animated loading skeletons, 
+Dynamic urgency colors for deadlines, 
+Rounded modern UI components, 
+Responsive layout behavior, 
 
 Built by Sanelisiwe Mhlawuli using Next.js, TypeScript and Tailwind CSS.
